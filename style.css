@@ -1,63 +1,57 @@
 body {
     background-color: #bbfae9;
     font-family: ocr a;
-    font-size: 50px;
+    font-size: 3.4rem;
     color: #662cfa;
-}
-#titulo {
-    font-size: 100px;
-    margin-left: 140px;
 }
 .selecao1 select {
     width: auto;
     text-align: center;
-    padding: 25px;
+    padding: 1rem;
     border-radius: 4px;
-    font-size: 30px;
+    font-size: 1.5rem;
     color: white;
     font-family: ocr a;
     background-color: rgba(49, 49, 182, 0.801);
     appearance: none; /* Remove a aparência padrão do select em alguns navegadores */
     -webkit-appearance: none; /* Remove a aparência padrão do select no Safari */
 }
-
+#titulo{
+    margin-left: 0.5rem;
+}
 .selecao1 {
-    margin: 50px;
+    margin-top: 2rem;
+    margin-left: 3.8rem;
 }
-
+#para{
+    margin: 3.8rem;
+}
 .resultado {
-    margin: 50px;
-    display: flex;
+    margin: 4rem;
 }
 
-#resposta {
+.resultado input{
     background-color: rgb(167, 167, 255);
-    height: 70px;
+    width: 13rem;
     text-align: center;
-    width: 10%;
-    font-size: 30px;
+    padding: 1rem;
+    border-radius: 4px;
+    font-size: 2rem;
     color: white;
+    font-family: ocr a;
 }
+
 #coiso{
-    margin-right: 30px;
-    margin-left: 30px;
-}
-#vrli{
-    color: white;
-    background-color: rgb(167, 167, 255);
-    text-align: center;
-    font-size: 30px;
-    margin-left: 77px;
-    height: 70px;
-    width: 150px;   
+    font-size: 4rem;
+    margin-left: 6.5rem;
 }
 
 #printar{
     text-align: center;
-    font-size: 30px;
+    font-size: 2rem;
     color: white;
     background-color: rgba(49, 49, 182, 0.801); 
-    height: 75px;
-    width: 250px;
-    margin-left: 330px;
+    height: 4.5rem;
+    width: 20rem;
+    margin-left: 1.8rem;
 }
