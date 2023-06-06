@@ -57,3 +57,8 @@ body {
     font-family: 'ocr a';
     margin-left: 1.8rem;
 }
+@font-face {
+    font-family: "ocr a";
+    src: url(OCRAEXT.TTF);
+}
+  
