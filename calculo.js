@@ -119,7 +119,20 @@ btnCalcular.addEventListener("click", function () {
    
         inputResultado.value = resultado;
     } else {
-        inputResultado.value = "error";
+        var mensagens = [
+            "ヘ⁠（⁠。⁠□⁠°⁠）⁠ヘ",
+            "⁄⁠(⁠⁄⁠ ⁠⁄⁠•⁠⁄⁠-⁠⁄⁠•⁠⁄⁠ ⁠⁄⁠)⁠⁄",
+            "(⁠●⁠_⁠_⁠●⁠)",
+            "(⁠(⁠(⁠;⁠ꏿ⁠_⁠ꏿ⁠;⁠)⁠)⁠)",
+            "ERROR",
+            "😰",
+            "(o_o;)",
+            "(oᗜo;)"
+        ];
+
+        var mensagemAleatoria = mensagens[Math.floor(Math.random() * mensagens.length)];
+        
+        inputResultado.value = mensagemAleatoria;
     }
 });
 
