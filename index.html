@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pr-BR">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <span id="titulo">CALCULADORA</span>
+        <div class="selecao1">
+            <select name="medida1" id="m1">
+                <option value="">medida inicial</option>
+                <option value="km">Quilômetro (km)</option>
+                <option value="hm">Hectômetro (hm)</option>
+                <option value="dam">Decâmetro (dam)</option>
+                <option value="dm">Decímetro (dm)</option>
+                <option value="cm">Centímetro (cm)</option>
+                <option value="mm">Milímetro (mm)</option>
+            </select>
+
+            <span>para</span>
+            <select name="medida2" id="m2">
+                <option value="">medida inicial</option>
+                <option value="km">Quilômetro (km)</option>
+                <option value="hm">Hectômetro (hm)</option>
+                <option value="dam">Decâmetro (dam)</option>
+                <option value="dm">Decímetro (dm)</option>
+                <option value="cm">Centímetro (cm)</option>
+                <option value="mm">Milímetro (mm)</option>
+            </select>
+        </div>
+        <div class="resultado">
+            <form action="valor">
+                <input type="text" name="vi" id="vrli" />
+            </form>
+            <span id="coiso">é igual a</span>
+            <input
+                type="text"
+                readonly
+                value="resultado"
+                id="resposta"
+            />
+        </div>
+        <button id="printar">Calcular</button>
+    </body>
+</html>

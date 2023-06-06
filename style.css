@@ -1,0 +1,63 @@
+body {
+    background-color: #bbfae9;
+    font-family: ocr a;
+    font-size: 50px;
+    color: #662cfa;
+}
+#titulo {
+    font-size: 100px;
+    margin-left: 140px;
+}
+.selecao1 select {
+    width: auto;
+    text-align: center;
+    padding: 25px;
+    border-radius: 4px;
+    font-size: 30px;
+    color: white;
+    font-family: ocr a;
+    background-color: rgba(49, 49, 182, 0.801);
+    appearance: none; /* Remove a aparência padrão do select em alguns navegadores */
+    -webkit-appearance: none; /* Remove a aparência padrão do select no Safari */
+}
+
+.selecao1 {
+    margin: 50px;
+}
+
+.resultado {
+    margin: 50px;
+    display: flex;
+}
+
+#resposta {
+    background-color: rgb(167, 167, 255);
+    height: 70px;
+    text-align: center;
+    width: 10%;
+    font-size: 30px;
+    color: white;
+}
+#coiso{
+    margin-right: 30px;
+    margin-left: 30px;
+}
+#vrli{
+    color: white;
+    background-color: rgb(167, 167, 255);
+    text-align: center;
+    font-size: 30px;
+    margin-left: 77px;
+    height: 70px;
+    width: 150px;   
+}
+
+#printar{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    background-color: rgba(49, 49, 182, 0.801); 
+    height: 75px;
+    width: 250px;
+    margin-left: 330px;
+}
