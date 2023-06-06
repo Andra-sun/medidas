@@ -14,6 +14,7 @@
             <option value="km">Quilômetro (km)</option>
             <option value="hm">Hectômetro (hm)</option>
             <option value="dam">Decâmetro (dam)</option>
+            <option value="m">Metros (m)</option>
             <option value="dm">Decímetro (dm)</option>
             <option value="cm">Centímetro (cm)</option>
             <option value="mm">Milímetro (mm)</option>
@@ -25,13 +26,14 @@
             <option value="km">Quilômetro (km)</option>
             <option value="hm">Hectômetro (hm)</option>
             <option value="dam">Decâmetro (dam)</option>
+            <option value="m">Metros (m)</option>
             <option value="dm">Decímetro (dm)</option>
             <option value="cm">Centímetro (cm)</option>
             <option value="mm">Milímetro (mm)</option>
         </select>
 
         <form action="valor">
-            <input type="text" name="vi" id="vrli" />
+            <input type="text" name="vi" id="vrli" onkeypress="return validarInput(event)" />
         </form>
         <span id="coiso">=</span>
         <input type="text" readonly value="resultado" id="resposta" />
@@ -42,5 +44,6 @@
             <span id="d">light mode</span>
         </button>
         <script src="dark.js"></script>
+        <script src="calculo.js"></script>
     </body>
 </html>
