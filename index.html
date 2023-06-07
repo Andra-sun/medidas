@@ -15,9 +15,8 @@
         <span id="d">☀︎</span>
       </button>
     </div>
-
-    <select name="medida1" id="m1">
-      <option value="" disabled selected>medida inicial</option>
+    <select name="medida1" id="m1" onchange="removeTitulo()">
+      <option value="" selected disabled>medida inicial</option>
       <option value="km">Quilômetro (km)</option>
       <option value="hm">Hectômetro (hm)</option>
       <option value="dam">Decâmetro (dam)</option>
@@ -28,8 +27,8 @@
     </select>
 
     <span id="para">para</span>
-    <select name="medida2" id="m2">
-      <option value="" disabled selected>medida final</option>
+    <select name="medida2" id="m2" onchange="removeTitulo2()">
+      <option value="" selected disabled>medida final</option>
       <option value="km">Quilômetro (km)</option>
       <option value="hm">Hectômetro (hm)</option>
       <option value="dam">Decâmetro (dam)</option>
@@ -54,5 +53,15 @@
     <h1>made by Andra •ᴗ•</h1>
     <script src="dark.js"></script>
     <script src="calculo.js"></script>
+    <script>
+      function removeTitulo() {
+        var select = document.getElementById("m1");
+        select.remove(0);
+      }
+      function removeTitulo2() {
+        var select2 = document.getElementById('m2');
+        select2.remove(0)
+      }
+    </script>
   </body>
 </html>
