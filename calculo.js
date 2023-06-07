@@ -8,7 +8,13 @@ btnCalcular.addEventListener("click", function () {
     var medida1 = selectMedida1.value;
     var medida2 = selectMedida2.value;
 
-    var valor = parseFloat(inputValor.value);
+
+
+    var valorResp = inputValor.value;
+
+    var valor = parseFloat(valorResp.replace(',', '.'));
+    // console.log(valor);
+
 
     if (medida1 && medida2 && !isNaN(valor)) {
         var resultado;
@@ -164,10 +170,10 @@ btnCalcular.addEventListener("click", function () {
     if (inputResultado.value === ',') {
         inputResultado.value = mensagemAleatoria;
     }
-      
+
 });
 
-function validarInput(event) {
+function validarInput (event) {
     var tecla = event.which || event.keyCode;
     var valor = String.fromCharCode(tecla);
     var padrao = /[0-9.]/;
@@ -196,5 +202,5 @@ sumirMensagem.addEventListener("click", function () {
     mensagemAviso.style.display = "none";
 });
 
-function validarInput(event) {}
+function validarInput (event) { }
 
