@@ -153,3 +153,7 @@ h1{
     position:relative;
     font-size: 2rem;
 }
+@font-face {
+    font-family: "Courier New";
+    src: url(COURBD.TTF);
+}
