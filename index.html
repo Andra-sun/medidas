@@ -1,54 +1,58 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Document</title>
-        <link rel="stylesheet" href="style.css" />
-    </head>
-    <body>
-        <div id="cont">
-            <span id="titulo">CALCULADORA</span>
-            <button id="toggle">
-                <span id="l">☾</span>
-                <span id="d">☀︎</span>
-            </button>
-        </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="cont">
+      <span id="titulo">CALCULADORA</span>
+      <button id="toggle">
+        <span id="l">☾</span>
+        <span id="d">☀︎</span>
+      </button>
+    </div>
 
-        <select name="medida1" id="m1">
-            <option value="">medida inicial</option>
-            <option value="km">Quilômetro (km)</option>
-            <option value="hm">Hectômetro (hm)</option>
-            <option value="dam">Decâmetro (dam)</option>
-            <option value="m">Metros (m)</option>
-            <option value="dm">Decímetro (dm)</option>
-            <option value="cm">Centímetro (cm)</option>
-            <option value="mm">Milímetro (mm)</option>
-        </select>
+    <select name="medida1" id="m1">
+      <option value="">medida inicial</option>
+      <option value="km">Quilômetro (km)</option>
+      <option value="hm">Hectômetro (hm)</option>
+      <option value="dam">Decâmetro (dam)</option>
+      <option value="m">Metros (m)</option>
+      <option value="dm">Decímetro (dm)</option>
+      <option value="cm">Centímetro (cm)</option>
+      <option value="mm">Milímetro (mm)</option>
+    </select>
 
-        <span id="para">para</span>
-        <select name="medida2" id="m2">
-            <option value="">medida final</option>
-            <option value="km">Quilômetro (km)</option>
-            <option value="hm">Hectômetro (hm)</option>
-            <option value="dam">Decâmetro (dam)</option>
-            <option value="m">Metros (m)</option>
-            <option value="dm">Decímetro (dm)</option>
-            <option value="cm">Centímetro (cm)</option>
-            <option value="mm">Milímetro (mm)</option>
-        </select>
+    <span id="para">para</span>
+    <select name="medida2" id="m2">
+      <option value="">medida final</option>
+      <option value="km">Quilômetro (km)</option>
+      <option value="hm">Hectômetro (hm)</option>
+      <option value="dam">Decâmetro (dam)</option>
+      <option value="m">Metros (m)</option>
+      <option value="dm">Decímetro (dm)</option>
+      <option value="cm">Centímetro (cm)</option>
+      <option value="mm">Milímetro (mm)</option>
+    </select>
 
-        <form action="valor">
-            <input type="text" name="vi" id="vrli" onkeypress="returnvalidarInput(event)" />
-        </form>
-        <span id="mensagemAviso">Não use virgula(,), apenas ponto(.)!!</span>
+    <form action="valor">
+      <input
+        type="text"
+        name="vi"
+        id="vrli"
+        onkeypress="returnvalidarInput(event)"
+      />
+    </form>
 
-        <span id="coiso">=</span>
-        <input type="text" readonly value="resultado" id="resposta" />
-        <button id="printar">Calcular</button>
-        <h1>made by Andra •ᴗ•</h1>
-        <script src="dark.js"></script>
-        <script src="calculo.js"></script>
-    </body>
+    <span id="coiso">=</span>
+    <input type="text" readonly value="resultado" id="resposta" />
+    <button id="printar">Calcular</button>
+    <h1>made by Andra •ᴗ•</h1>
+    <script src="dark.js"></script>
+    <script src="calculo.js"></script>
+  </body>
 </html>
