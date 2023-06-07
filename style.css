@@ -28,7 +28,8 @@ body {
     margin-top: 3rem;
 }
 #titulo {
-    margin-left: 0.5rem;
+    font-size: 3rem;
+    margin: 0rem;
 }
 
 #para{
@@ -107,19 +108,24 @@ margin-bottom: 1rem;
     color: rgb(15, 221, 15);
 }
 .dark #d{
-    font-size: 2rem;
+    text-align: center;
+    font-size: 1.4rem;
     display: block;
     color: white;
 }
 #d{
-    font-size: 2rem;
+    font-size: 1.4rem;
     display: none;
     color: #662cfa;
 }
+#cont{
+    flex-direction: row;
+}
 #toggle {
-    position:relative;
+    position:absolute;
     height: 3rem;
-    width: 5rem;
+    margin-top: 0.6rem;
+    width: 2rem;
     border-radius: 4rem;
     background-color: rgb(66, 66, 66);
     cursor: pointer;
@@ -129,9 +135,10 @@ margin-bottom: 1rem;
 
 .dark #toggle {
     color: white;
-    position:relative;
+    position:absolute;
     height: 3rem;
-    width: 5rem;
+    margin-top: 0.6rem;
+    width: 2rem;
     border-radius: 4rem;
     background-color: rgb(167, 167, 255);
     cursor: pointer;
