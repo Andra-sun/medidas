@@ -183,7 +183,7 @@ var sumirMensagem = document.getElementById("printar");
 var mensagemAviso = document.getElementById("mensagemAviso");
 
 campoEntrada.addEventListener("focus", function () {
-    mensagemAviso.style.display = "block";
+    mensagemAviso.style.display = "flex";
 });
 
 campoEntrada.addEventListener("input", function () {
