@@ -8,6 +8,7 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    text-align: center;
 }
 #m1, #m2 {
 
@@ -133,4 +134,16 @@ margin-bottom: 1rem;
     width: 10rem;
     background-color: rgb(167, 167, 255);
     cursor: pointer;
+}
+
+#mensagemAviso{
+    position: relative;
+    text-align: center;
+    width: 40rem;
+    border-radius: 0.4rem;
+    margin-top: 1rem;
+    background-color: rgba(255, 255, 255, 0.548);
+    font-size: 2rem;
+    display: none;
+    color: red;
 }
